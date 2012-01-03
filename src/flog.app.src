@@ -1,0 +1,7 @@
+{application, flog,
+ [{description, "flog"},
+  {vsn, "0.01"},
+  {modules, [flog, clog]},
+  {registered, []},
+  {env, []},
+  {applications, [kernel, stdlib]}]}.
